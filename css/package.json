@@ -1,0 +1,17 @@
+{
+  "name": "css",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "watch": "compile-less -d src -o lib --watch",
+    "build": "compile-less -d src -o lib",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "compile-less-cli": "^1.8.9"
+  }
+}
