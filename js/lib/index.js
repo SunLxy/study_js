@@ -1,3 +1,9 @@
 "use strict";
-var a = [1, 2, 3, 4, 5];
-var arrays = ["1", 2, "2"];
+/** 获取根节点 */
+var rootDom = document.getElementById("root");
+var setNode = function (text) {
+    if (rootDom) {
+        rootDom.innerHTML = text;
+    }
+};
+setNode("哈哈哈哈");

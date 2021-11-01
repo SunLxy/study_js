@@ -1,3 +1,9 @@
-const a = [1, 2, 3, 4, 5]
+/** 获取根节点 */
+const rootDom = document.getElementById("root")
 
-const arrays = ["1", 2, "2"]
+const setNode = (text: string) => {
+  if (rootDom) {
+    rootDom.innerHTML = text;
+  }
+}
+setNode("哈哈哈哈")
